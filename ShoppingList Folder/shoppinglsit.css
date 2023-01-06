@@ -1,0 +1,44 @@
+body{
+    background-color: #343a40;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; 
+    /* background-color: lightgreen; */
+}
+
+.shoppinglistcontainer{
+  margin-top: 20px; 
+}
+
+/* .list-group{
+    list-style: decimal inside;
+}
+.list-group-item{
+display: list-item;
+} */
+.form-control{
+    max-width: 500px;
+}
+
+.productName{ 
+    cursor:  pointer;
+    background-color:  white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom:   10px;
+    display: inline;
+}
+.fa-trash{
+    color: white;
+    cursor: pointer;
+    font-size:  20px;
+    margin-left:  10px; 
+}
+
+.purchased {
+    text-decoration:  line-through;
+}
