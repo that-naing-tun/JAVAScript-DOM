@@ -10,7 +10,7 @@ const tracks = [
 for (let i= 0 ; i< tracks.length ; i++){
     const trackTag = document.createElement("div");
     trackTag.addEventListener("click" , () => {
-        const 
+        const innertag = trackTag[i];
     })
     trackTag.classList.add("trackItem");
     const title = (i+1).toString() + ". " + tracks[i].title;
